@@ -1,0 +1,65 @@
+.form{
+  font-size: 1.2rem;
+  color: #555;  
+  display: grid;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  box-shadow: 0.1rem 0.1rem 2rem 0.2rem rgba(0, 0, 0, 0.131);
+  border-style: none;
+  border-radius: 0.3rem;
+  
+}
+
+.form--input{
+  background-color: rgba(0,0,0,.1234);
+  width: 30.0rem;
+  margin-bottom: 1rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+ 
+}
+
+#btnSubmit{
+  background: #000;
+  color:rgb(145, 145, 145);
+  cursor: pointer;
+  transition:all 0.3s;
+}
+#btnSubmit:hover{
+  background:linear-gradient(260deg, #000,  rgb(54, 54, 54));
+}
+
+.form--checkbox{
+  display: flex;
+  align-items: center;
+}
+.form--checkbox > input, .form--checkbox > label{
+  cursor: pointer;
+}
+.form--fieldset{
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: rgb(218, 218, 218);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+
+}
+
+.form--fieldset input, .form--fieldset label{
+  cursor: pointer;
+}
+
+.radio--container{
+  display: flex;
+  align-items: center;
+}
+
